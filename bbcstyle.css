@@ -27,9 +27,9 @@ body,p, ul, li, h1, span {margin: 0;}
 
 	padding-top: 10px;
 	padding-left: 10px;
-
 	float:left;
 }
+
 #menu{
 	float: left;
 	margin-left: 80px;
@@ -61,8 +61,8 @@ padding-top: 7px;
 }
 
 #newsbar{
-	background-color: red;
-	height: 100px;
+	background-color: #990000;
+	height: 90px;
 	color: white;
 	font-family: Helvetica;
 
@@ -71,6 +71,46 @@ padding-top: 7px;
 
 #newsbar h1{
 	text-transform: uppercase;
-	font-size: 17px;
-	text-decoration:none;
+	font-size: 37px;
+	font-weight:normal;
+	padding: 15px 0 0 0;
+	float:left;
+
+}
+
+#newsbar h1 span{
+	font-size: 25px;
+}
+#newsbar .rss{
+	float:right;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-top: 40px;
+
+}
+
+
+#topicMenu{
+	background-color: #3E0C0D;
+	overflow: auto;
+	height: 27px;
+	margin-top: 6px;
+}
+#topicMenu ul{
+padding: 0;
+margin-top: 5px;
+
+}
+#topicMenu li{
+	float:left;
+	padding: 0 5px 0 5px;
+	list-style: none;
+	border-left: 1px solid red;
+	font-size: 13px;
+
+}
+
+#topicMenu li.selected{
+	background-color: white;
+	color:blue;
 }
