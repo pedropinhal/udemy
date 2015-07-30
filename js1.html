@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html hola_ext_inject="disabled"><head>
+    <title>Example Domain</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style media="screen">
+  #circle{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+
+
+  }
+
+
+</style>
+</head>
+
+<body>
+<p id="text">
+  pedro
+</p>
+
+<div id="circle">
+
+</div>
+
+<h1> how many fingers?</h1>
+<input type="text" id="guess" value="">
+<button type="button" id="guessbutton">Guess</button>
+<script type="text/javascript">
+document.getElementById('circle').onclick=function(){
+  this.style.display = 'none';
+};
+
+document.getElementById('guessbutton').onclick=function(){
+  var guess = document.getElementById('guess').value;
+  var roll = Math.floor((Math.random() * 5) + 1)
+  if(guess == roll){
+    alert('Correct');
+  }else{
+    
+  }
+  console.log(roll);
+
+};
+
+</script>
+
+
+</body></html>
