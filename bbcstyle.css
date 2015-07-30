@@ -92,15 +92,15 @@ padding-top: 7px;
 
 #topicMenu{
 	background-color: #3E0C0D;
-	overflow: auto;
-	height: 27px;
+	
+	height: 26px;
 	margin-top: 6px;
 }
 #topicMenu ul{
-padding: 0;
-margin-top: 5px;
-
+	padding: 0;
+	padding-top: 5px;
 }
+
 #topicMenu li{
 	float:left;
 	padding: 0 5px 0 5px;
@@ -111,6 +111,33 @@ margin-top: 5px;
 }
 
 #topicMenu li.selected{
-	background-color: white;
-	color:blue;
+	background-color: #DEDEDE;
+	color:gray;
+	font-weight: bold;
+	height: 21px;
+	position: relative;
+	top:-5px;
+	padding-top: 5px;
+
+}
+
+#contentbar{
+	font-family: Helvetica;
+	font-size: 11px;
+	color: gray;
+	margin-top:0px;
+	padding-top:0px;
+	clear: both;
+}
+
+#contentbar .main{
+	border: 1px solid green;
+	width:680px;
+	float:left;
+
+}
+#contentbar .sidebar{
+	border: 1px solid blue;
+	width:376px;
+	float:left;
 }
